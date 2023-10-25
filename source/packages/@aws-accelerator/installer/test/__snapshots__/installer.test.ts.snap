@@ -227,7 +227,7 @@ exports[`InstallerStack Stack(installer):  Snapshot Test 1`] = `
       "Type": "String",
     },
     "RepositoryOwner": {
-      "Default": "awslabs",
+      "Default": "ZanderLavastory",
       "Description": "The owner of the repository containing the accelerator code. (GitHub Only)",
       "Type": "String",
     },
@@ -3592,7 +3592,7 @@ exports[`InstallerStack Stack(installer):  Snapshot Test 2`] = `
       "Type": "String",
     },
     "RepositoryOwner": {
-      "Default": "awslabs",
+      "Default": "ZanderLavastory",
       "Description": "The owner of the repository containing the accelerator code. (GitHub Only)",
       "Type": "String",
     },
@@ -6979,7 +6979,7 @@ exports[`InstallerStack Stack(installer):  Snapshot Test 3`] = `
       "Type": "String",
     },
     "RepositoryOwner": {
-      "Default": "awslabs",
+      "Default": "ZanderLavastory",
       "Description": "The owner of the repository containing the accelerator code. (GitHub Only)",
       "Type": "String",
     },
@@ -10357,7 +10357,7 @@ exports[`InstallerStack Stack(installer):  Snapshot Test 4`] = `
       "Type": "String",
     },
     "RepositoryOwner": {
-      "Default": "awslabs",
+      "Default": "ZanderLavastory",
       "Description": "The owner of the repository containing the accelerator code. (GitHub Only)",
       "Type": "String",
     },
@@ -13725,7 +13725,7 @@ exports[`InstallerStack Stack(installer):  Snapshot Test 5`] = `
       "Type": "String",
     },
     "RepositoryOwner": {
-      "Default": "awslabs",
+      "Default": "ZanderLavastory",
       "Description": "The owner of the repository containing the accelerator code. (GitHub Only)",
       "Type": "String",
     },

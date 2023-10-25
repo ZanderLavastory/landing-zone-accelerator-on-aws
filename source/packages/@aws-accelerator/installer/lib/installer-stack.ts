@@ -60,7 +60,7 @@ export class InstallerStack extends cdk.Stack {
   private readonly repositoryOwner = new cdk.CfnParameter(this, 'RepositoryOwner', {
     type: 'String',
     description: 'The owner of the repository containing the accelerator code. (GitHub Only)',
-    default: 'awslabs',
+    default: 'ZanderLavastory',
   });
 
   private readonly repositoryName = new cdk.CfnParameter(this, 'RepositoryName', {

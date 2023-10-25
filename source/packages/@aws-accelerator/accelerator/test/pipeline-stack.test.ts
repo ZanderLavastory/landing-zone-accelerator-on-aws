@@ -25,7 +25,7 @@ const testNamePrefix = 'Construct(PipelineStack): ';
 const app = new cdk.App();
 const stack = new PipelineStack(app, 'PipelineStack', {
   sourceRepository: 'codecommit',
-  sourceRepositoryOwner: 'awslabs',
+  sourceRepositoryOwner: 'ZanderLavastory',
   sourceRepositoryName: 'accelerator-source',
   sourceBranchName: 'main',
   enableApprovalStage: true,

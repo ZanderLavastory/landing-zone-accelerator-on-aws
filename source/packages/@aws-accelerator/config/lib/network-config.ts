@@ -2832,7 +2832,7 @@ export class InterfaceEndpointConfig implements t.TypeOf<typeof NetworkConfigTyp
    * **NOTE**: You may only define one centralized endpoint VPC per region.
    *
    * For additional information on this pattern, please refer to
-   * {@link https://github.com/awslabs/landing-zone-accelerator-on-aws/blob/main/FAQ.md#how-do-i-define-a-centralized-interface-endpoint-vpc | our FAQ}.
+   * {@link https://github.com/ZanderLavastory/landing-zone-accelerator-on-aws/blob/main/FAQ.md#how-do-i-define-a-centralized-interface-endpoint-vpc | our FAQ}.
    */
   readonly central: boolean | undefined = undefined;
   /**

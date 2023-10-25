@@ -319,7 +319,7 @@ async function main() {
   //
   if (includeStage({ stage: AcceleratorStage.PIPELINE, account, region })) {
     const sourceRepository = process.env['ACCELERATOR_REPOSITORY_SOURCE'] ?? 'github';
-    const sourceRepositoryOwner = process.env['ACCELERATOR_REPOSITORY_OWNER'] ?? 'awslabs';
+    const sourceRepositoryOwner = process.env['ACCELERATOR_REPOSITORY_OWNER'] ?? 'ZanderLavastory';
     const sourceRepositoryName = process.env['ACCELERATOR_REPOSITORY_NAME'] ?? 'landing-zone-accelerator-on-aws';
     const sourceBranchName = process.env['ACCELERATOR_REPOSITORY_BRANCH_NAME'];
     const enableApprovalStage = process.env['ACCELERATOR_ENABLE_APPROVAL_STAGE']

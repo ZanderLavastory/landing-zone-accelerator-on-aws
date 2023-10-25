@@ -1,7 +1,7 @@
 ###################################################################################
 # For additional configurable services, features, and property descriptions,      #
 # please review our network configuration reference in our README.md:             #
-# https://github.com/awslabs/landing-zone-accelerator-on-aws/blob/main/README.md  #
+# https://github.com/ZanderLavastory/landing-zone-accelerator-on-aws/blob/main/README.md  #
 ###################################################################################
 homeRegion: &HOME_REGION us-east-1
 #####################################
