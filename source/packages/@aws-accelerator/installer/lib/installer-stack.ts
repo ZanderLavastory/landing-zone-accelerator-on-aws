@@ -833,7 +833,7 @@ export class InstallerStack extends cdk.Stack {
           owner: this.repositoryOwner.valueAsString,
           repo: this.repositoryName.valueAsString,
           branch: this.repositoryBranchName.valueAsString,
-          oauthToken: cdk.SecretValue.secretsManager('accelerator/github-token'),
+          oauthToken: cdk.SecretValue.secretsManager('accelerator/github-token1'),
           output: acceleratorRepoArtifact,
           trigger: cdk.aws_codepipeline_actions.GitHubTrigger.NONE,
         }),
@@ -878,7 +878,7 @@ export class InstallerStack extends cdk.Stack {
       assumedBy: new cdk.aws_iam.ServicePrincipal('lambda.amazonaws.com'),
     });
 
-    const secretIdPrefix = `arn:${this.partition}:secretsmanager:${this.region}:${this.account}:secret:accelerator/github-token`;
+    const secretIdPrefix = `arn:${this.partition}:secretsmanager:${this.region}:${this.account}:secret:accelerator/github-token1`;
     const installerPipelineArn = `arn:${this.partition}:codepipeline:${this.region}:${this.account}:${installerPipelineName}`;
     const acceleratorPipelineArn = `arn:${this.partition}:codepipeline:${this.region}:${this.account}:${acceleratorPipelineName}`;
 

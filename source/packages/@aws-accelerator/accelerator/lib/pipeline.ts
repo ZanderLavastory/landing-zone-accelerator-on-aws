@@ -256,7 +256,7 @@ export class AcceleratorPipeline extends Construct {
         owner: this.props.sourceRepositoryOwner,
         repo: this.props.sourceRepositoryName,
         branch: this.props.sourceBranchName,
-        oauthToken: cdk.SecretValue.secretsManager('accelerator/github-token'),
+        oauthToken: cdk.SecretValue.secretsManager('accelerator/github-token1'),
         output: this.acceleratorRepoArtifact,
         trigger: cdk.aws_codepipeline_actions.GitHubTrigger.NONE,
       });

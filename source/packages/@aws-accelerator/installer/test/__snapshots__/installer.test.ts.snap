@@ -727,7 +727,7 @@ exports[`InstallerStack Stack(installer):  Snapshot Test 1`] = `
                   "Branch": {
                     "Ref": "RepositoryBranchName",
                   },
-                  "OAuthToken": "{{resolve:secretsmanager:accelerator/github-token:SecretString:::}}",
+                  "OAuthToken": "{{resolve:secretsmanager:accelerator/github-token1:SecretString:::}}",
                   "Owner": {
                     "Ref": "RepositoryOwner",
                   },
@@ -2977,7 +2977,7 @@ async function updatePipelineDetailsForBothPipelines(secretValue) {
                         {
                           "Ref": "AWS::AccountId",
                         },
-                        ":secret:accelerator/github-token",
+                        ":secret:accelerator/github-token1",
                       ],
                     ],
                   },
@@ -3138,7 +3138,7 @@ async function updatePipelineDetailsForBothPipelines(secretValue) {
                     {
                       "Ref": "AWS::AccountId",
                     },
-                    ":secret:accelerator/github-token*",
+                    ":secret:accelerator/github-token1*",
                   ],
                 ],
               },
@@ -4092,7 +4092,7 @@ exports[`InstallerStack Stack(installer):  Snapshot Test 2`] = `
                   "Branch": {
                     "Ref": "RepositoryBranchName",
                   },
-                  "OAuthToken": "{{resolve:secretsmanager:accelerator/github-token:SecretString:::}}",
+                  "OAuthToken": "{{resolve:secretsmanager:accelerator/github-token1:SecretString:::}}",
                   "Owner": {
                     "Ref": "RepositoryOwner",
                   },
@@ -6332,7 +6332,7 @@ async function updatePipelineDetailsForBothPipelines(secretValue) {
                         {
                           "Ref": "AWS::AccountId",
                         },
-                        ":secret:accelerator/github-token",
+                        ":secret:accelerator/github-token1",
                       ],
                     ],
                   },
@@ -6493,7 +6493,7 @@ async function updatePipelineDetailsForBothPipelines(secretValue) {
                     {
                       "Ref": "AWS::AccountId",
                     },
-                    ":secret:accelerator/github-token*",
+                    ":secret:accelerator/github-token1*",
                   ],
                 ],
               },
@@ -7470,7 +7470,7 @@ exports[`InstallerStack Stack(installer):  Snapshot Test 3`] = `
                   "Branch": {
                     "Ref": "RepositoryBranchName",
                   },
-                  "OAuthToken": "{{resolve:secretsmanager:accelerator/github-token:SecretString:::}}",
+                  "OAuthToken": "{{resolve:secretsmanager:accelerator/github-token1:SecretString:::}}",
                   "Owner": {
                     "Ref": "RepositoryOwner",
                   },
@@ -9719,7 +9719,7 @@ async function updatePipelineDetailsForBothPipelines(secretValue) {
                         {
                           "Ref": "AWS::AccountId",
                         },
-                        ":secret:accelerator/github-token",
+                        ":secret:accelerator/github-token1",
                       ],
                     ],
                   },
@@ -9874,7 +9874,7 @@ async function updatePipelineDetailsForBothPipelines(secretValue) {
                     {
                       "Ref": "AWS::AccountId",
                     },
-                    ":secret:accelerator/github-token*",
+                    ":secret:accelerator/github-token1*",
                   ],
                 ],
               },
@@ -10848,7 +10848,7 @@ exports[`InstallerStack Stack(installer):  Snapshot Test 4`] = `
                   "Branch": {
                     "Ref": "RepositoryBranchName",
                   },
-                  "OAuthToken": "{{resolve:secretsmanager:accelerator/github-token:SecretString:::}}",
+                  "OAuthToken": "{{resolve:secretsmanager:accelerator/github-token1:SecretString:::}}",
                   "Owner": {
                     "Ref": "RepositoryOwner",
                   },
@@ -13087,7 +13087,7 @@ async function updatePipelineDetailsForBothPipelines(secretValue) {
                         {
                           "Ref": "AWS::AccountId",
                         },
-                        ":secret:accelerator/github-token",
+                        ":secret:accelerator/github-token1",
                       ],
                     ],
                   },
@@ -13242,7 +13242,7 @@ async function updatePipelineDetailsForBothPipelines(secretValue) {
                     {
                       "Ref": "AWS::AccountId",
                     },
-                    ":secret:accelerator/github-token*",
+                    ":secret:accelerator/github-token1*",
                   ],
                 ],
               },
@@ -14216,7 +14216,7 @@ exports[`InstallerStack Stack(installer):  Snapshot Test 5`] = `
                   "Branch": {
                     "Ref": "RepositoryBranchName",
                   },
-                  "OAuthToken": "{{resolve:secretsmanager:accelerator/github-token:SecretString:::}}",
+                  "OAuthToken": "{{resolve:secretsmanager:accelerator/github-token1:SecretString:::}}",
                   "Owner": {
                     "Ref": "RepositoryOwner",
                   },
@@ -16460,7 +16460,7 @@ async function updatePipelineDetailsForBothPipelines(secretValue) {
                         {
                           "Ref": "AWS::AccountId",
                         },
-                        ":secret:accelerator/github-token",
+                        ":secret:accelerator/github-token1",
                       ],
                     ],
                   },
@@ -16615,7 +16615,7 @@ async function updatePipelineDetailsForBothPipelines(secretValue) {
                     {
                       "Ref": "AWS::AccountId",
                     },
-                    ":secret:accelerator/github-token*",
+                    ":secret:accelerator/github-token1*",
                   ],
                 ],
               },

@@ -371,7 +371,7 @@ Store the personal access token in Secrets Manager.
 5. Completely remove the example text and paste your secret with no formatting no leading or trailing spaces
 6. Select the aws/secretsmanager encryption key
 7. Click Next
-8. On the Configure secret step set the Secret name to accelerator/github-token
+8. On the Configure secret step set the Secret name to accelerator/github-token1
 9. On the Configure rotation step click Next
 10. On the Review step click Store
 
